@@ -13,3 +13,35 @@
 /* 
     GENERAL
 */
+.float-container {
+    border: 3px dashed red;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
